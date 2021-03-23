@@ -10,6 +10,7 @@ import os
 #make a secret.py file from secret_template.py, fill in with credentials
 from secret import USERNAME
 from secret import PASSWORD
+#feel free to make ROOT whatever you want in constants.py
 from constants import ROOT
 
 #################################################################
@@ -17,7 +18,7 @@ from constants import ROOT
 
 username = USERNAME
 password = PASSWORD
-save_directory = f"~/{ROOT}/" # keep trailing slash
+save_directory = f"{ROOT}" # keep trailing slash
 
 #################################################################
 # GET ACCESS TOKEN
